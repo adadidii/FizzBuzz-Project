@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FizzBuzz Project</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--FizBuzz Tools-->
+    <h1>Get a FizzBuzz Results</h1>
+    <form id="formFizzbuzz">
+      <label for="numberInput">Type a number: </label>
+      <input
+        type="text"
+        id="numberInput"
+        name="numberInput"
+        placeholder="Input Here :D"
+      />
+      <button type="button" id="submitButton">Check it!</button>
+    </form>
+
+    <!-- Result-->
+    <div id="result"></div>
+
+    <!--Help Modal-->
+    <div class="help">
+      <button id="openModalButton">Help / Bantuan</button>
+      <div id="helpModal">
+        <div id="modalContent">
+          <span id="closeModalIcon">&times;</span>
+          <h2>Bantuan FizzBuzz</h2>
+          <p>
+            FizzBuzz digunakan untuk mengecek apakah angka yang Anda masukkan
+            merupakan kelipatan 3 atau kelipatan 5 atau bahkan sama-sama
+            kelipatan 3 dan 5
+          </p>
+          <p>
+            Ketika Anda memasukkan selain angka, maka hasilnya menjadi
+            <span class="highlight-text">"Invalid Input"</span>. Cobalah untuk
+            mengisikannya!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Script Init-->
+    <script src="script.js"></script>
+  </body>
+</html>
