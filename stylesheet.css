@@ -61,9 +61,26 @@ button {
   color: red;
 }
 
+.fizz-highlight {
+  color: green;
+}
+
+.buzz-highlight {
+  color: purple;
+}
+
+.fizzbuzz-highlight {
+  color: blue;
+}
+
 #closeModalIcon {
   color: #aaaaaa;
   float: right;
+}
+
+p {
+  padding: 5px;
+  line-height: 27px;
 }
 
 #closeModalIcon:hover,
